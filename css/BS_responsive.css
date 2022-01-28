@@ -1,0 +1,251 @@
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {
+    .bg_map{
+        min-height: 595px;
+    }
+}
+
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .img_holder {
+        position: relative;
+    }
+    .img_holder img.phone {
+        position: absolute;
+    }
+}
+
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero_content h1 {
+        font-size: 5em;
+        padding: 1em 0em;
+    }
+    .hero_padding {
+        padding-top: 2.5em;
+        padding-bottom: 2em;
+    }
+    .who_we_are {
+        margin-top: 0em;
+    }
+    .work h2 {
+        text-align: center;
+    }
+    .what_we_do div.left,
+    .what_we_do div.right {
+        width: 100%;
+        float: none;
+    }
+    .think_different {
+        padding: 5em 0em;
+        margin: 0em 0em;
+    }
+    .work_content>div {
+        float: left;
+        width: 63%;
+        box-sizing: border-box;
+    }
+    .work_content h4 {
+        margin-bottom: .6em !important;
+    }
+    .work_content div.work_sign {
+        margin-right: 1em;
+        margin-top: 4em;
+        max-width: 30%;
+        text-align: center;
+    }
+    .work_content div.work_sign.mt {
+        margin-top: 3em;
+    }
+    .img_holder {
+        position: static;
+    }
+    .img_holder img.phone {
+        position: static;
+    }
+    .quote p.desig {
+        margin-top: .8em;
+        margin-bottom: 0em;
+        line-height: 1;
+    }
+    #crazyWay_slider .carousel-indicators {
+        bottom: -10px;
+        left: 65%;
+    }
+    #crazyWay_slider .carousel-indicators li {
+        margin: .3em;
+    }
+    #crazyWay_slider .fa.fa-quote-left,
+    #crazyWay_slider .fa.fa-quote-right {
+        font-size: 3em;
+    }
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    .default_padding {
+        padding: 1.8em 0em;
+    }
+    h1 {
+        margin-bottom: 1.2em;
+        font-weight: 700;
+    }
+    h2 {
+        margin-bottom: 1em;
+        font-weight: 600;
+    }
+    h3 {
+        margin-bottom: .7em;
+        font-weight: 500;
+    }
+    h4 {
+        margin-bottom: .5em;
+        font-weight: 400;
+    }
+    .hero_padding {
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+    .who_we_are {
+        margin-top: 0em;
+    }
+    .img_holder {
+        position: static;
+    }
+    .img_holder img.phone {
+        position: static;
+    }
+    .img_holder {
+        padding: 0 25%;
+    }
+    .quote p.desig {
+        margin-top: 1em;
+        margin-bottom: 0em;
+    }
+    .quote b {
+        font-size: 1.5em;
+    }
+    #crazyWay_slider .fa.fa-quote-left,
+    #crazyWay_slider .fa.fa-quote-right {
+        font-size: 2.2em;
+    }
+    #crazyWay_slider .fa.fa-quote-left {
+        left: -15px;
+    }
+    #crazyWay_slider .carousel-indicators {
+        left: 30%;
+    }
+    .quote p.desig {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    .work h2 {
+        text-align: center;
+    }
+    .what_we_do div.left,
+    .what_we_do div.right {
+        width: 100%;
+        float: none;
+    }
+    .think_different {
+        padding: 8.5em 0em;
+        margin: 0em 0em;
+    }
+    .think_different .think {
+        font-size: 5em;
+        line-height: 1;
+    }
+    .think_different .belive {
+        display: block;
+        font-size: 2.5em;
+        line-height: 1;
+    }
+    .work_content>div {
+        float: left;
+        width: 63%;
+        box-sizing: border-box;
+    }
+    .work_content h4 {
+        margin-bottom: .6em !important;
+    }
+    .work_content div.work_sign {
+        margin-right: 1em;
+        margin-top: 4em;
+        max-width: 30%;
+        text-align: center;
+    }
+    .work_content div.work_sign.mt {
+        margin-top: 3em;
+    }
+}
+
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    .default_padding {
+        padding: 1em 0em;
+    }
+    .hero_padding {
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+    .work h2 {
+        text-align: center;
+    }
+    .what_we_do div.left,
+    .what_we_do div.right {
+        width: 100%;
+        float: none;
+    }
+    .think_different {
+        padding: 8.5em 0em;
+        margin: 0em 0em;
+    }
+    .think_different .think {
+        font-size: 3.2em;
+        line-height: 1;
+    }
+    .think_different .belive {
+        display: block;
+        font-size: 1.5em;
+        line-height: 1;
+    }
+    .work_content>div {
+        float: left;
+        width: 60%;
+    }
+    .work_content h4 {
+        margin-bottom: .6em !important;
+    }
+    .work_content div.work_sign {
+        margin-right: 1em;
+        margin-top: 4em;
+        max-width: 30%;
+        text-align: center;
+    }
+    .work_content div.work_sign.mt {
+        margin-top: 3em;
+    }
+    .quote b {
+        font-size: 1em;
+    }
+    #crazyWay_slider .fa.fa-quote-left,
+    #crazyWay_slider .fa.fa-quote-right {
+        font-size: 1.5em;
+    }
+    #crazyWay_slider .carousel-indicators {
+        left: 20%;
+    }
+    .quote p.desig {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
